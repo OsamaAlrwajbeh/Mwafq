@@ -1,8 +1,8 @@
 import React from "react";
-import AboutUs from "./components/AboutUs";
-import Partnership from "./components/Partnership";
-import Benefits from "./components/Benefits";
-import Features from "./components/Features";
+import AboutUs from "./_components/AboutUs";
+import Partnership from "./_components/Partnership";
+import Benefits from "./_components/Benefits";
+import Features from "./_components/Features";
 
 function page() {
   return (

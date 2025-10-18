@@ -5,7 +5,7 @@ import logo from "@images/Header/logo.png";
 function Header() {
   return (
     <header className="sticky top-0 z-50 bg-[#dbf2f8] border-b border-[#000000] shadow-md">
-      <nav className="container mx-auto px-8 py-3 flex items-center justify-between">
+      <nav className="container_main !px-8 !py-3 flex items-center justify-between">
         {/* Logo */}
         <Link className="flex flex-col items-start w-[300px]" href="/">
           <Image

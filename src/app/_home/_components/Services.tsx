@@ -9,6 +9,7 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "./services.css";
 import Image from "next/image";
+import ServiceCard from '@/components/ui/Card';
 import health1 from "@images/Home/health1.png";
 import health2 from "@images/Home/health2.png";
 import health3 from "@images/Home/health3.png";
@@ -93,38 +94,11 @@ const Services = () => {
         >
           {services.map((service, index) => (
             <SwiperSlide key={index}>
-              <div className="bg-white rounded-2xl border-2 p-8 shadow-sm hover:shadow-xl transition-all duration-300 h-[250px] flex flex-col">
-                {/* Icon */}
-                <div className="mb-6 flex gap-3 items-center">
-                  <Image
-                    src={service.src}
-                    alt={service.title}
-                    width={56}
-                    height={56}
-                  />
-                  <h3 className="text-xl font-bold text-gray-900 ">
-                    {service.title}
-                  </h3>
-                </div>
-
-                {/* Title */}
-
-                {/* Description */}
-                <p className="text-gray-600 text-sm leading-relaxed mb-6 flex-grow">
-                  {service.description}
-                </p>
-
-                {/* See More Link */}
-                <a
-                  href="#"
-                  className="text-cyan-500 font-medium text-sm flex items-center gap-2 hover:gap-3 transition-all group"
-                >
-                  See More
-                  <span className="group-hover:translate-x-1 transition-transform">
-                    →
-                  </span>
-                </a>
-              </div>
+              <ServiceCard
+                title={service.title}
+                description={service.description}
+                image={service.src}
+              />
             </SwiperSlide>
           ))}
         </Swiper>

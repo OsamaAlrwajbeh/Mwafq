@@ -1,6 +1,6 @@
 import React from "react";
-import ContactUs from "./components/ContactUs";
-import MapLocation from "./components/MapLocation";
+import ContactUs from "./_components/ContactUs";
+import MapLocation from "./_components/MapLocation";
 import Contact from "@/components/common/Contact";
 
 function page() {
