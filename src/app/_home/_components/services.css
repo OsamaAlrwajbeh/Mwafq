@@ -1,0 +1,19 @@
+/* Custom Swiper Pagination Styles */
+.swiper-pagination-bullet {
+  background: #d1d5db !important; /* Gray color for inactive bullets */
+  opacity: 1 !important;
+  width: 10px !important;
+  height: 10px !important;
+  transition: all 0.3s ease !important;
+}
+
+.swiper-pagination-bullet-active {
+  background: #00a8f1 !important; /* Your custom cyan color */
+  width: 32px !important;
+  border-radius: 5px !important;
+}
+
+.swiper-pagination-bullet:hover {
+  background: #00a8f1 !important;
+  opacity: 0.7 !important;
+}
