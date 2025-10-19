@@ -12,30 +12,35 @@ const ExaminationServices = () => {
       title: "Iqama Examination",
       description:
         "Streamlined and hassle-free Iqama medical examinations for your employees",
+      link: "/services/service-details/1",
     },
     {
       image: health2,
       title: "Baladiya Examination",
       description:
         "Quick, reliable, and fully compliant Baladiya examinations for your employees",
+      link: "/services/service-details/2",
     },
     {
       image: health3,
       title: "Pre-Employment Test",
       description:
         "Fast and accurate pre-employment medical tests to ensure your candidates are ready for work",
+      link: "/services/service-details/3",
     },
     {
       image: health1,
       title: "Iqama Examination",
       description:
         "Streamlined and hassle-free Iqama medical examinations for your employees",
+      link: "/services/service-details/4",
     },
     {
       image: health2,
       title: "Baladiya Examination",
       description:
         "Quick, reliable, and fully compliant Baladiya examinations for your employees",
+      link: "/services/service-details/5",
     },
     {
       image: health3,
@@ -65,7 +70,6 @@ const ExaminationServices = () => {
 
   return (
     <section className="container_main">
-      {/* Header */}
       <div className="mb-12">
         <p className="text-custom-lightBlue text-base mb-4">Our Services</p>
         <h2 className="text-4xl md:text-5xl font-bold text-custom-darkBlue">
@@ -81,6 +85,7 @@ const ExaminationServices = () => {
             title={service.title}
             description={service.description}
             image={service.image}
+            link={service.link}
           />
         ))}
       </div>
