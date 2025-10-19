@@ -79,7 +79,7 @@ const CustomIntro = ({
               src={image}
               alt={title || "Hero Image"}
               fill
-              className="rounded-xl"
+              className="rounded-xl object-contain"
             />
           </div>
         </div>

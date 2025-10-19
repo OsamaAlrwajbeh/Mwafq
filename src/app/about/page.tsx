@@ -6,7 +6,7 @@ import Features from "./_components/Features";
 
 function page() {
   return (
-    <div className="min-h-screen bg-white">
+    <div>
       <AboutUs />
       <Partnership />
       <Benefits />

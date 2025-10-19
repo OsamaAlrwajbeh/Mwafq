@@ -5,7 +5,7 @@ import Contact from "@/components/common/Contact";
 
 function page() {
   return (
-    <div className="bg-white">
+    <div>
       <ContactUs />
       <MapLocation />
       <Contact />

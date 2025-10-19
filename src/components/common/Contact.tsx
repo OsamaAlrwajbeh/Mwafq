@@ -72,10 +72,7 @@ const Contact = () => {
                 rows={4}
                 className="w-full px-4 py-3 rounded bg-white text-gray-900"
               ></textarea>
-              <Button
-                type="submit"
-                className="bg-indigo-900 text-white px-8 py-3 rounded font-semibold hover:bg-indigo-800 transition"
-              >
+              <Button type="submit" className="">
                 Send Message
               </Button>
             </form>

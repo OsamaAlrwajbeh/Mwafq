@@ -7,8 +7,9 @@ import Features from "./_home/_components/Features";
 import Contact from "@/components/common/Contact";
 
 export default function Home() {
+  console.log("Home");
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen">
       <Hero />
       <Stats />
       <Services />

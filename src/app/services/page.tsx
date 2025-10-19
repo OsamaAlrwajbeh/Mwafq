@@ -5,7 +5,7 @@ import MedicalPartners from "./_components/MedicalPartners";
 
 function page() {
   return (
-    <div className="bg-white">
+    <div>
       <Services />
       <ExaminationServices />
       <MedicalPartners />
